@@ -24,10 +24,4 @@ automation/
 
 ## ▶️ How to Run
 ```bash
-pip install -r requirements.txt
-pytest
-
----
-```bash
-git add .
-git commit -m "Initial commit: Selenium Pytest automation framework"
+pytest .\tests\test_course_creation.py
